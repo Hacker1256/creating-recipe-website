@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        #navList{
+            padding: 15px;
+            /* margin-left: 15px; */
+            /* margin-right: 15px;  */
+            list-style: none;
+            font-size: 2.5rem;
+            display:flex;
+            justify-content: space-between;
+            align-items: center;
+
+          
+        }
+        nav{
+            width: 100%;
+        }
+        .container{
+            height: 100vh;
+            width: 100vw;
+            overflow-x: none;
+            background-color: #8EC5FC;
+background-image: linear-gradient(62deg, #8EC5FC 0%, #E0C3FC 100%);
+
+        }
+        .navcontainer{
+            height: 80px;
+            width: 100vw;
+            /* background-color: rgba(81, 81, 210, 0.503); */
+            background-color: #0093E9;
+background-image: linear-gradient(160deg, #0093E9 0%, #80D0C7 100%);
+
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+            
+        }
+
+        
+        #navlogo{
+            font-size: 2.8rem;
+            color: white;
+        }
+        a{
+            text-decoration: none;
+            color: azure;
+        }
+        #navitems{
+            display: flex;
+            gap: 40px;
+        }
+        .footerbox{
+            text-align: center;
+            min-height: 40px;
+            margin-top: 10px;
+            color: azure;
+            width: 100vw;
+            background-color: background-color: #0093E9;
+background-image: linear-gradient(160deg, #0093E9 0%, #80D0C7 100%);
+            
+           
+        }
+        .footerbox p{
+            color: azure;
+            font-size: 2rem;
+            margin: auto;
+       
+
+        }
+        .navlogo{
+           
+        }
+        .contentbox{
+            margin:auto
+            width: 70%;
+            border: 2px solid black;
+
+        }
+         .item{
+            display: flex;
+           
+            justify-content: space-between;
+            gap: 20px;
+        }
+        .atharva{
+            display: flex;
+            flex-direction: column;
+        }
+        #image1{
+            padding-top: 20px;
+            border-radius: 10px;
+             transition: 2px;
+        }
+        #image2{
+            padding-top: 20px;
+            border-radius: 10px;
+        }
+        #image3{
+            padding-top: 20px;
+            border-radius: 10px;
+        }
+        #image4{
+            padding-top: 20px;
+            border-radius: 10px;
+        }
+        #box1{
+            transition: all 3s linear 1s;
+        }
+        #box2{
+            transition: all 3s linear 1s;
+        }
+        #box3{
+            transition: all 3s linear 1s;
+        }
+        #box4{
+            transition: all 3s linear 1s;
+        }
+        #box1:hover{
+            transform: skew(360deg);
+        }
+        #box2:hover{
+            transform: skew(360deg);
+        }
+        #box3:hover{
+            transform: skew(360deg);
+        }
+        #box4:hover{
+            transform: skew(360deg);
+        }
+        .font1{
+            font-style: italic;
+        }
+        .font2{
+            font-style: italic;
+        }
+        .font3{
+            font-style: italic;
+        }
+        .font4{
+            font-style: italic;
+        }
+    
+
+        
+    </style>
+</head>
+<body>
+  
+    <div class="container">
+        <header>
+            <div class="navcontainer">
+                <nav>
+                    <ul id="navList">
+                        <li>
+                            <p id="navlogo">
+                                  Atharva's Recipe
+                            </p>
+                         </li>
+                          <li id="navitems">
+                            <a href="">Home</a>
+                            <a href="">Contact</a>
+                            <a href="">about us</a>
+                          </li> 
+                    </ul>
+                </nav>
+            </div>
+        </header>
+        <main id="atharva">
+            <div class="contentbox">
+               <!-- item 1 -->
+              <section>
+                <div class="item">
+                    <div class="leftbox" id="image4">
+                        <div id="box4">
+                        <img src="gulab jamun.jpg" alt="gulab jamun">
+                    </div>
+                        <h2>
+                            Gulab jamun
+                        </h2>
+                        <h2>Ingredients</h2>
+                        <ul>
+                            <li>
+                                sugar
+                            </li>
+                            <li>milk</li>
+                            <li>oil</li>
+                        </ul>
+                        <h2>Recipe</h2>
+                        <ul class="font4">
+                            <li>Make the dough: Mix 1 cup khoya, 3 tbsp maida, and a pinch of baking soda, then knead into a soft dough using milk. Roll into smooth balls.</li>
+                            <li>Prepare sugar syrup: Boil 1.5 cups sugar with 1.5 cups water, add crushed cardamom and optional rose water/saffron, and simmer for 5-7 minutes.</li>
+                            <li>Fry the gulab jamun: Deep fry the dough balls in medium-hot oil or ghee until golden brown.</li>
+                            <li>Soak in syrup: Add the fried balls to warm sugar syrup and let them soak for 1-2 hours before serving.</li>
+                        </ul>
+
+
+                    </div>
+                    <div class="rightbox">
+                        <div id="box1">
+                        <img src="basundi.jpg" alt="barfi" id="image1">
+                    </div>
+                        <h2>
+                            Basundi
+                        </h2>
+                        <h2>Ingredients</h2>
+                        <ul>
+                            <li>
+                               sugar
+                            </li>
+                            <li>milk</li>
+                            <li>dryfruits</li>
+                        </ul>
+                        <h2>Recipe</h2>
+                        <ul class="font1">
+                            <li>Take 1 liter of full-fat milk in a heavy-bottomed pan. Heat it on medium flame and bring it to a boil.</li>
+                            <li>Lower the flame and let the milk simmer. Stir occasionally to prevent burning and scrape the cream from the sides, mixing it back into the milk. Continue until the milk reduces to half its original volume.</li>
+                            <li>Add sugar, cardamom powder, and a pinch of saffron (optional) to the thickened milk. Stir well and cook for 5–10 minutes.</li>
+                            <li>Add chopped nuts like almonds and pistachios for a rich flavor. Let it cool down, then refrigerate and serve chilled.
+
+                                Enjoy your creamy and delicious Basundi! 😊</li>
+                        </ul>
+
+
+                    </div>
+                    <div class="rightbox">
+                        <div id="box2">
+                        <img src="barfi.jpg" alt="barfi" id="image2">
+                        </div>
+                        <h2>
+                            barfi
+                        </h2>
+                        <h2>Ingredients</h2>
+                        <ul>
+                            <li>
+                                sugar
+                            </li>
+                            <li>ghee</li>
+                            <li>milk power</li>
+                        </ul>
+                        <h2>Recipe</h2>
+                        <ul class="font2">
+                            <li>Heat 2–3 tablespoons of ghee in a non-stick pan. Add 1 cup of milk powder and sauté on low heat for a few seconds.</li>
+                            <li>Add ½ cup of milk and ½ cup of sugar to the pan. Stir continuously on low heat until the mixture thickens and starts leaving the sides of the pan.</li>
+                            <li>Transfer the mixture onto a greased plate or parchment paper. Spread it evenly and press it down to shape it into a square or rectangle.</li>
+                            <li>et it cool completely, then cut into square or diamond-shaped pieces. Garnish with chopped nuts if desired, and enjoy! 😊</li>
+                        </ul>
+
+
+                    </div>
+                    <div class="rightbox">
+                        <div id="box3">
+                        <img src="bhakarvadi copy.jpg" alt="barfi" id="image3">
+                    </div>
+                        <h2>
+                            Bhakarvadi
+                        </h2>
+                        <h2>Ingredients</h2>
+                        <ul>
+                            <li>
+                                Maida
+                            </li>
+                            <li>coconut flavour powder</li>
+                            <li>oil</li>
+                        </ul>
+                        <h2>Recipe</h2>
+                        <ul class="font3">
+                            <li>In a mixing bowl, combine 1 cup of all-purpose flour (maida), 2 tablespoons of oil, and a pinch of salt. Gradually add water and knead to form a smooth, soft dough. Cover it with a damp cloth and let it rest for 15-20 minutes.</li>
+                            <li>In a bowl, mix 2 tablespoons of dry grated coconut, 1 tablespoon of coriander powder, 1 tablespoon of chili powder, 1 tablespoon of sesame seeds, 1 teaspoon of fennel seeds, and salt to taste. Add 1 teaspoon of tamarind paste or sugar for a tangy or sweet touch (optional). Mix everything well.</li>
+                            <li>Roll the dough into a thin sheet. Spread a thin layer of the spice-coconut mixture evenly over the dough. Carefully roll the sheet into a tight log and seal the edges.</li>
+                            <li>Cut the roll into small pieces and deep-fry them in hot oil until golden and crisp. Drain on paper towels and serve warm. Enjoy your delicious bhakarwadi! 😊</li>
+                        </ul>
+
+
+                    </div>
+
+                    </div>
+                </div>
+              </section>
+
+            </div>
+        </main>
+        <footer>
+           <div class="footerbox">
+            <p>
+                copyright &copy; Atharva's Recipe Pvt Ltd 2025 All Rights Reserved 
+            </p>
+           </div>
+        </footer>
+    </div>
+
+
+</body>
+</html>
